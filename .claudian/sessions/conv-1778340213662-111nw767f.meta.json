@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778340213662-111nw767f",
+  "providerId": "claude",
+  "title": "回答模型身份问题",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778340213667,
+  "updatedAt": 1778340539903,
+  "lastResponseAt": 1778340220862,
+  "sessionId": "db87db24-f1d8-4e15-8d9f-f53b23e113ed",
+  "providerState": {
+    "providerSessionId": "db87db24-f1d8-4e15-8d9f-f53b23e113ed"
+  },
+  "currentNote": "未命名.md",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 22733,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22733,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

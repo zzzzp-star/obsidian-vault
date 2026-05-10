@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778340560675-xkaz7rxuf",
+  "providerId": "claude",
+  "title": "List my capabilities",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778340560675,
+  "updatedAt": 1778351011508,
+  "lastResponseAt": 1778341832327,
+  "sessionId": "434bd7e8-4de6-4ce6-a96f-e87174cb56f2",
+  "providerState": {
+    "providerSessionId": "434bd7e8-4de6-4ce6-a96f-e87174cb56f2"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 932,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32256,
+    "contextWindow": 200000,
+    "contextTokens": 33188,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

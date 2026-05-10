@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778418706699-6p2oc091b",
+  "providerId": "claude",
+  "title": "建模DeepSeek-V4时延带宽与序列分析",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778418706700,
+  "updatedAt": 1778419621044,
+  "lastResponseAt": 1778419621044,
+  "sessionId": "624cc64b-ad41-43f1-80f3-b0f082d99924",
+  "providerState": {
+    "providerSessionId": "624cc64b-ad41-43f1-80f3-b0f082d99924"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 467,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 59008,
+    "contextWindow": 200000,
+    "contextTokens": 59475,
+    "percentage": 30,
+    "contextWindowIsAuthoritative": true
+  }
+}

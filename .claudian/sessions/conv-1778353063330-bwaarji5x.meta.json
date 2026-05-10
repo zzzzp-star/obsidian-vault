@@ -1,0 +1,22 @@
+{
+  "id": "conv-1778353063330-bwaarji5x",
+  "providerId": "claude",
+  "title": "启动 raw 文件摄入流程",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778353063331,
+  "updatedAt": 1778418433869,
+  "lastResponseAt": 1778418433869,
+  "sessionId": "999f364a-aa3e-4f12-acd0-c96d1fa85971",
+  "providerState": {
+    "providerSessionId": "999f364a-aa3e-4f12-acd0-c96d1fa85971"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 953,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 117632,
+    "contextWindow": 200000,
+    "contextTokens": 118585,
+    "percentage": 59
+  }
+}
