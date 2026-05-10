@@ -25,3 +25,12 @@
 ## [2026-05-10] query | 保存 synthesis 页面
 - **变更**: 新增 [[synthesis-deepseek-v4-latency-bandwidth-model]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-11] query | 基于 raw 数据重新建模并修正 synthesis 页面
+- **变更**: 重写 [[synthesis-deepseek-v4-latency-bandwidth-model]]; 新增图表 [[assets/deepseek-v4-flops-comparison.png]]、[[assets/deepseek-v4-kvcache-comparison.png]]
+- **修正**:
+  - FLOPs: 从估算 ~25-32G 修正为精确公式 `107.77G + 186,368 × Seq` (1M = 298.6G，此前低估 9.3×)
+  - KV Cache @1M: 从 3.9 GB 修正为 4,464.54 MB (偏差 -12.5%)
+  - 各序列 KV Cache 值全部采用 `raw/01-articles/zartbot-DeepSeek-V4详细分析：数据表格.md` 精确值
+  - Per-step KV 读取量基于 KV Cache 结构（FP8 CSA/HCA + FP4 Indexer + SWA）逐组件重新建模
+- **冲突**: 无
